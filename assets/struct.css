@@ -1,0 +1,97 @@
+/* 
+    By _gabe.cc
+ */
+ 
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+:root{
+    --white-color: #fff;
+    --primary-color: #550055;
+    --secundary-color: #330033;
+    --universal-gap: 3rem; 
+
+}
+
+html{
+    /* padronizando a medida rem */
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 5.5rem;
+}
+
+h3{
+    font-size: 5rem;
+}
+
+h4{
+    font-size: 4.5rem;
+}
+
+h5{
+    font-size: 4rem;
+}
+
+h6{
+    font-size: 3.5rem;
+}
+
+.main-bg{
+    background-image: url('img/bg.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.main-content{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 10rem var(--universal-gap);
+}
+
+.page{
+    min-height: 100vh;
+}
+
+.white-bg{
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+
+.barra-naveg{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.menu-content{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
